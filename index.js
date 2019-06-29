@@ -30,6 +30,8 @@ createTableRows = (configs) => {
         checkbox.checked = config.selected;
         checkbox.onclick = () => this.onLabelClick(config.key)
         labelDiv.appendChild(checkbox);
+
+        // I made this change in develop branch
         let label = document.createElement('div');
         label.innerText = config.label;
         labelDiv.appendChild(label);
