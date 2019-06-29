@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="index.js" defer></script>
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <input type = 'text' placeholder="Search" id='search-bar' onkeydown="onSearchPress()" onkeyup="onSearchPress()"></input>
+            <input type="checkbox" onclick="showSelected()" id ='show-selected'>Show Selected</input>
+        </div>
+        <div class="table-body">
+            <div class="table-head">
+                <div class="table-title">Key</div>
+                <div class="table-title">Value</div>
+                <div class="table-title">Description</div>
+            </div>
+            <div class="table-body" id = "table-body">
+
+            </div>
+        </div>
+        <div class="footer">
+            <button class="done-button" onClick="onDoneClick()">Done</button>
+        </div>
+    </div>
+</body>
+</html>

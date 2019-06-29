@@ -1,0 +1,59 @@
+.row{
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-gap: 10px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 70% 2% 20%;
+}
+
+#search-bar{
+    height: 20px;
+    width: 50%;
+}
+
+.table-body{
+    display: grid;
+}
+
+.table-head{
+    display: grid;
+    height: 30px;
+    grid-template-columns: 30% 30% 40%;
+    background-color: gray;
+    text-align: center;
+}
+
+.grey{
+    background-color: lightgray;
+}
+
+.footer{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 100%;
+    align-content: flex-end;
+}
+
+.done-button{
+    width: 10%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+}
+
+.label-div{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
